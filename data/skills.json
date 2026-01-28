@@ -1,30 +1,77 @@
 [
-    {
-        "title": "Projet Booki – Booking-like",
-        "text": "Intégration d'une maquette Figma en HTML/CSS responsive. Focus sur Flexbox, media queries et accessibilité.",
-        "image": "booki.jpg",
-        "link": "https://github.com/ton-pseudo/booki"
-    }
+   
     {
         "title": "Portfolio Sophie Bluel – Architecte",
         "text": "Site dynamique avec JavaScript : login admin, galerie filtrable, modale d'ajout photo. Appel API.",
         "image": "sophie-bluel.jpg",
         "link": "https://github.com/Kaorilan/Laurie_Pfeffer_Portfolio_architecte_sophie_bluel.git"
-    }
+        
+    },
     {
         "image": "html-css.jpg",
         "title": "HTML - CSS",
-        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
+        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS",
+        "link": "https://github.com/Kaorilan/P2_site_Riding_Citites_HTML5.git"
     },
     {
-        "image": "js.jpg",
-        "title": "javascript",
-        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
+        "image": "booki.jpg",
+        "title": "Projet Booki – Booking-like",
+        "text": "Intégration d'une maquette Figma en HTML/CSS responsive. Focus sur Flexbox, media queries et accessibilité.",
+        "link": "https://github.com/Kaorilan/P3_Booki_starter_HTML_CSS.git"
+    },
+    {
+        "image": "",
+        "title": "JSE_Avocats_Premier_pas_de_test",
+        "text": "",
+        "link": "https://animated-rodent-aa3.notion.site/217be53d25ce80f6ab7af5d92763d295?v=217be53d25ce81418fcd000c78371ccd"
+    },
+    {
+        "image": "",
+        "title": "724_Events",
+        "text": "",
+        "link": "https://github.com/Kaorilan/P5_724_Events_Campagne_de_test.git"
+    },
+    {
+        "image": "",
+        "title": "Print_It",
+        "text": "",
+        "link": "P6_Print_It_WebSite_JS.github.io"
+    },
+    {
+        "image": "",
+        "title": "Portfolio_architecte_sophie_bluel_JS_web_dynamique",
+        "text": "",
+        "link": "https://github.com/Kaorilan/P7_Portfolio_architecte_sophie_bluel_JS_web_dynamique.git"
     },
     {
         "image": "react.jpg",
-        "title": "React",
-        "text": "Création d’applications React, création de composants et manipulation de leur état"
+        "title": "Kasa_API_React",
+        "text": "Création d’applications React, création de composants et manipulation de leur état",
+        "link": "https://github.com/Kaorilan/P8_Kasa_API_React.git"
+    },
+    {
+        "image": "",
+        "title": "Qwenta_MenuMaker_Planification",
+        "text": "",
+        "link": "https://github.com/Kaorilan/P9_Qwenta_MenuMaker_Planification.git"
+    },
+    {
+        "image": "",
+        "title": "EcoBlissBath_Automatisation",
+        "text": "",
+        "link": "https://github.com/Kaorilan/P10_EcoBlissBath_Automatisation.git"
+    },
+    {
+        "image": "",
+        "title": "Tomsem_Concevoir_une_strategie_de_test",
+        "text": "",
+        "link": "https://github.com/Kaorilan/P11_Tomsem_Concevoir_une_strategie_de_test.git"
+    },
+    {
+        "image": "",
+        "title": "Portfolio_master",
+        "text": "",
+        "link": "https://github.com/Kaorilan/P12_Portfolio_master.git"
     },
     {
         "image": "gestion-de-projet.png",
@@ -41,14 +88,4 @@
         "title": "Test",
         "title ": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
     }
-]
-
-
-[
-  {
-    
-  },
-  {
-    
-  }
 ]
