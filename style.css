@@ -1,4 +1,5 @@
 /******* GENERAL *******/
+
 /* spacing on all sections */
 #about,
 #skills,
@@ -44,7 +45,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    padding: 30rem;
+    padding: 2rem;                  /* raisonnable */
+    width: 90%;                     /* évite que ça dépasse sur mobile */
+    max-width: 800px;
 }
 
 /* about */
@@ -83,7 +86,10 @@
     color: #008000;
 }
 .skillsText:hover {
-    border: 1px solid #551b7ac9;
+    border: 2px solid #551b7ac9;
+    box-shadow: var(--shadow);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
 }
 
 /* portfolio */
@@ -98,17 +104,89 @@
     border-bottom: 1px solid #dee2e6;
 }
 .portfolioContent:hover {
-    border: 1px solid #551b7ac9;
+    border: 2px solid #551b7ac9;
+    box-shadow: var(--shadow);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
 }
+.portfolioContent .btn-success {
+    background-color: #551b7ac9;
+    border-color: #551b7ac9;
+    color: white;
+    font-weight: 500;
+}
+
+
+
 /* contact */
 .contactColumn {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: transform 0.3s ease;
 }
+
+.contactColumn:hover {
+    transform: translateY(-8px);
+}
+
 .contactColumn i {
-    color: #198754;
+    color: #551b7ac9;
+    font-size: 3rem;                 /* un peu plus grand */
+    margin-bottom: 1rem;
+    transition: color 0.3s;
+}
+
+.contactColumn:hover i {
+    color: #551b7ac9;           /* violet au hover pour cohérence */
 }
 
 /* footer */
+footer {
+    background-color: #551b7ac9;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+footer a:hover {
+    color: #ddd;
+}
 
+
+
+@media (max-width: 768px) {
+    .bgimage {
+        height: 80vh;
+        min-height: 500px;
+    }
+
+    .hero-text {
+        padding: 1.5rem !important;
+        transform: translate(-50%, -45%);
+        width: 95%;
+    }
+
+    .hero_title {
+        font-size: 2.8rem !important;
+        line-height: 1.1;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero_desc {
+        font-size: 1.4rem !important;
+    }
+
+    body {
+        padding-top: 0px;
+    }
+
+    #about {
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+}
