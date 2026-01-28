@@ -44,6 +44,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    padding: 30rem;
 }
 
 /* about */
@@ -64,6 +65,8 @@
     width: 100%;
     height: 150px;
     object-fit: contain;
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
 }
 #skills p {
     text-align: center;
@@ -80,14 +83,23 @@
     color: #008000;
 }
 .skillsText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #551b7ac9;
 }
 
 /* portfolio */
 #portfolio p {
     text-align: center;
 }
-
+.portfolioContent .card-img-top {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    padding: 3rem;
+    border-bottom: 1px solid #dee2e6;
+}
+.portfolioContent:hover {
+    border: 1px solid #551b7ac9;
+}
 /* contact */
 .contactColumn {
     display: flex;
