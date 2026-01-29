@@ -5,8 +5,8 @@
 #skills,
 #portfolio,
 #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
 }
 #about h2,
 #skills h2,
@@ -16,7 +16,7 @@
     margin-bottom: 3rem;
 }
 #contact {
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
 }
 
 h2 {
@@ -73,6 +73,7 @@ h2::after {
 
 .hero_title {
     font-size: 4.5rem;
+    margin-bottom: 1rem;
 }
 .hero_desc {
     font-size: 2rem;
@@ -90,6 +91,7 @@ h2::after {
 }
 
 /* about */
+
 .imageAboutPage {
     width: 100%;
 }
@@ -208,7 +210,7 @@ footer a:hover {
     .hero_title {
         font-size: 2.8rem !important;
         line-height: 1.1;
-        margin-bottom: 1rem;
+        
     }
 
     .hero_desc {
