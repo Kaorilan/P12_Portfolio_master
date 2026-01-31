@@ -7,7 +7,7 @@ Portfolio personnel testeuse logiciel junior, créé avec HTML, CSS et JavaScrip
 
 ## Aperçu
 
-Site vitrine présentant mon parcours, mes compétences et mes projets réalisés.  
+Site présentant mon parcours, mes compétences et mes projets réalisés.  
 Design moderne, responsive, avec chargement dynamique des sections "Compétences" et "Portfolio" depuis des fichiers JSON.
 
 ![Capture d'écran du portfolio](images/screenshot.png)  
