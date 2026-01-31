@@ -1,4 +1,4 @@
-# Portfolio - [Laurie] [Pfeffer]
+# Portfolio - Laurie Pfeffer
 
 Portfolio personnel testeuse logiciel junior, créé avec HTML, CSS et JavaScript.
 
